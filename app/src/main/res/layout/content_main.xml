@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="almanac.piyush.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:background="@drawable/bg">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Library App"
+                android:id="@+id/button3"
+                android:layout_below="@+id/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#F08C35"
+                android:textColor="#ffffff"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:elegantTextHeight="true"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="My Nanodegree Apps!"
+                android:id="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                android:textColor="#b946f0" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="BUILD IT BIGGER"
+                android:id="@+id/button4"
+                android:layout_below="@+id/button3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#F08C35"
+                android:textColor="#ffffff"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:elegantTextHeight="true"
+                android:clickable="true" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Spotify Streamer"
+                android:id="@+id/button"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="#F08C35"
+                android:textColor="#ffffff"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:elegantTextHeight="true"
+                android:clickable="true" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Scores App"
+                android:id="@+id/button2"
+                android:layout_below="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#F08C35"
+                android:textColor="#ffffff"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:elegantTextHeight="true"
+                android:clickable="true" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="BACON READER"
+                android:id="@+id/button5"
+                android:layout_below="@+id/button4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#F08C35"
+                android:textColor="#ffffff"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:elegantTextHeight="true"
+                android:clickable="true" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="CAPSTONE:MY OWN APP"
+                android:id="@+id/button6"
+                android:layout_below="@+id/button5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#9c1f9e"
+                android:textColor="#ffffff"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:elegantTextHeight="true"
+                android:clickable="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
